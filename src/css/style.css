@@ -1,0 +1,210 @@
+body {
+    background-color:rgb(243, 233, 213);
+    font-family: nunito;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.cabecalho {
+    border-bottom: 1px solid #DB3B1D;
+}
+.cabecalho .container { 
+    background-color:rgb(243, 233, 213);
+    display: flex;
+    justify-content: space-between;  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px; 
+}
+.banner img {
+    width: 100%;
+}
+.secao_produtos {
+    background-color:rgb(243, 233, 213);
+    padding: 30px 0 30px 0;
+}
+.secao_produtos .lista_produtos {
+    background-color:rgb(243, 233, 213);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgba(139, 72, 52, 0.986);
+    border-radius: 30px;
+}
+.lista_produtos .caixa_produtos {
+    background-color:rgb(255, 249, 236);
+    width: 200px;
+    margin: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.caixa_produtos .caixinha {
+    margin: 15px 5px;
+    height: 250px;
+    width: 180px;
+    border-radius: 25px;
+    background-color:rgba(255, 249, 236, 0.342);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    text-align: center;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.caixa_produtos .caixinha img {
+    height: 100px;
+    width: 100px;   
+}
+.caixa_produtos .caixinha h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px auto;
+    padding: 5px;
+    max-width: 170px;
+    min-height: 60px;
+    color: #502314;
+    
+}
+.caixa_produtos .caixinha p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0;
+    padding: 5px;
+}
+.caixa_produtos .caixinha:hover {
+    background-color: rgba(139, 72, 52, 0.986);
+}
+.rodape {}
+.carrinho {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 30px 30px 0 0;  
+}
+.carrinho .inforesumo {
+    background-color: rgba(139, 72, 52, 0.986);
+    border-radius: 30px 30px 0 0;
+    padding: 15px 0 20px 0;
+}
+.carrinho .container {
+    display: flex;
+    justify-content: space-between;
+}
+.carrinho .infousuario {}
+.carrinho .infousuario h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #F7F5F0;
+    margin-bottom: 15px;
+}
+.carrinho .infousuario p {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    color: #F7F5F0;
+}
+.carrinho .inforesumo .infopreco {
+    font-weight: 400;
+    font-size: 30px;
+    color: #F7F5F0;
+}
+.carrinho .resumopedido {
+    width: 80%;
+}
+.carrinho .resumopedido .listacarrinho {}
+.carrinho .resumopedido .cardproduto {
+    background: rgba(255, 249, 236, 0.842);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+
+.carrinho .resumopedido .cardproduto .infocarrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrinho .resumopedido .cardproduto .infocarrinho img {
+    width: 100px;
+}
+.carrinho .resumopedido .cardproduto .infocarrinho p {
+    font-size: 22px;
+    font-weight: 700;
+    color:rgba(139, 72, 52, 0.986);
+    margin-left: 30px;
+}
+
+.carrinho .resumopedido .cardproduto .resumopreco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrinho .resumopedido .cardproduto .resumopreco p {
+    font-size: 25px;
+    font-weight: 200;
+    color: #2D2D2D;
+    margin-right: 30px;
+}
+.carrinho .resumopedido .cardproduto .resumopreco img {
+    width: 13px ;
+    height: 18px;
+}
+.carrinho .resumopedido .cardproduto .resumopreco button {
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+}
+.carrinho .resumopedido .cardproduto .resumopreco button:hover {
+    background-color:rgba(139, 72, 52, 0.986); 
+}
+.cardbutao {
+    width: 20%;
+}
+.cardbutao button {
+    width: 170px;
+    height: 45px;
+    background-color:#DB3B1D; 
+    border: 4px solid #DB3B1D; 
+    border-radius: 10px ;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.2 ease-in-out;
+    color: #FFFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 15px;  
+}
+.cardbutao button ~ button {
+    background-color:#FFFF; 
+    border: 4px solid #DB3B1D;
+    color: #DB3B1D; 
+}
+.cardbutao button:hover {
+    background-color:rgba(139, 72, 52, 0.986) ;
+}
+.cardbutao .bt1 a, .cardbutao .bt2 a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.cardbutao .bt1 a{
+    color: #FFFF;
+}
+.cardbutao .bt2 a{
+   color: #DB3B1D; 
+}

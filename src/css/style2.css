@@ -1,0 +1,98 @@
+body {
+    background-color:rgb(243, 233, 213);
+    font-family: nunito;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.cabecalho {
+    border-bottom: 2px solid #DB3B1D;
+}
+.cabecalho .container{   
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px; 
+}
+.secao .container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+        
+}
+.secao .container img {}
+.secao .informacao {
+    margin: 5px; 
+    text-align: center; 
+    margin: 20px; 
+}
+.secao .informacao h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px;
+    color:  #502314;
+}
+.secao .informacao p {
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0 0 5px 0;
+    color: #502314;
+}
+.secao .conteudo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 40px;   
+}
+.secao .conteudo .caixa {
+    border: 4px solid #DB3B1D;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    
+    
+}
+.secao .conteudo .caixa img {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 20px; 
+      
+}
+.secao .conteudo .caixa h3 {
+    font-weight: 200;
+    font-size: 30px;
+    color: #DB3B1D;
+}
+.secao .conteudo .caixa2 {
+    border: 4px solid #DB3B1D;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.secao .conteudo .caixa2 img {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.secao .conteudo .caixa2 h3 {
+    font-weight: 200;
+    font-size: 30px;
+    color:#DB3B1D;
+}
